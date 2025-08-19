@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <title>Log-In</title>
+    </head>
+    <body>
+        <div class="container">
+        <h2>Login</h2>
+        <!-- Formulario que envía los datos por POST a procesar_login.php -->
+        <form action="login.php" method="post">
+            <label>Usuario:</label><br />
+            <input type="text" name="username" /><br />
+            <label>Contraseña:</label><br />
+            <input type="password" name="password" /><br /><br />
+            <input type="submit" value="Iniciar sesión" />
+        </form>
+    </div>
+    <script>
+        const a = [1,2];
+        const b = [3,4];
+        const c = a.concat(b).push(5);
+        console.log(c);
+    </script>
+    </body>
+</html>
