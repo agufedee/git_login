@@ -1,5 +1,4 @@
 <?php 
-// manejo de logueo en pantalla
 session_start();
 $usuario = 'admin';
 $pass = 'admin1';
