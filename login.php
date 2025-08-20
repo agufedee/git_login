@@ -1,5 +1,6 @@
 <?php 
 // se sigue comentando
+// sesion basica creada con php
 session_start();
 $usuario = 'admin';
 $pass = 'admin1';
