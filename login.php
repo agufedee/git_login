@@ -1,4 +1,5 @@
 <?php 
+// se sigue comentando
 session_start();
 $usuario = 'admin';
 $pass = 'admin1';
